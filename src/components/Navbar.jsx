@@ -29,7 +29,7 @@ const Navbar = () => {
         },
     ];
     return (
-        <div className='flex justify-between items-center w-full h-20 px-4 bg-black text-white fixed'>
+        <div className='flex justify-between items-center w-full h-20 px-4 bg-black text-white '>
             <div>
                 <h1 className='lg:text-4xl font-signature ml-2 px-1 text-3xl '>Amey Tari</h1>
             </div>
