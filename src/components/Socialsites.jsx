@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { CiSaveDown2 } from "react-icons/ci";
+import copywrite from '../assets/copywrite.png'
 const Socialsites = () => {
     const links = [
         {
@@ -19,7 +20,7 @@ const Socialsites = () => {
             id: 2,
             child: (
                 <>
-                   <FaGithub size={30} />
+                    <FaGithub size={30} />
                 </>
             ),
             href: 'https://github.com/AmeyTari2002',
@@ -48,7 +49,7 @@ const Socialsites = () => {
         }
     ]
     return (
-        <div  className='bg-gradient-to-b
+        <div className='bg-gradient-to-b
                  from-gray-800 to-gray-900 w-full h-full'>
             {/* max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full  */}
             <div className='max-w-screen-lg  p-4 mx-auto 
@@ -58,9 +59,9 @@ const Socialsites = () => {
                     <ul className='flex justify-center'>
                         {
                             links.map(({ id, child, href, style, download }) => (
-                                <li key={id} className={"flex justify-between items-center px-1 w-20 h-14  bg-transparent font-bold" + " " + style} >
+                                <li key={id} className={"flex justify-between items-center  w-20 h-14  bg-transparent font-bold" + " " + style} >
                                     <a href={href}
-                                        className='flex justify-between items-center w-full to-white'
+                                        className='flex justify-between items-center px-3 to-white'
                                         download={download}
                                         target='_blank'
                                     >
@@ -74,8 +75,15 @@ const Socialsites = () => {
                         }
 
                     </ul>
-                    <div className=' flex justify-center lg:py-3'>
-                        @ copyrght 2024
+                    <div className=' flex text-lg  flex-col justify-center items-center lg:py-3'>
+
+                        <div>
+                            Created by Amey Tari
+                        </div>
+                        <div className='flex text-sm py-2 gap-2'>
+                            <img src={copywrite} alt="" height={15} width={15}/>
+                            2024
+                        </div>
                     </div>
                 </div>
             </div>
