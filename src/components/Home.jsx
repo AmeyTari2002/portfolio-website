@@ -22,7 +22,7 @@ const Home = () => {
                         <button className='hover:scale-105  text-white w-fit px-7 py-3 
                         my-2 flex items-center rounded-md 
                         bg-gradient-to-r from-cyan-500 to-blue-500 sm:py-2 text-sm'>
-                            <a className='flex' href='/Resume_.pdf'
+                            <a className='flex' href='/resume_.pdf'
                                 download='true'
                                 target='_blank'
                             >
