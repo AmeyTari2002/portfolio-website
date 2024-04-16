@@ -10,6 +10,8 @@ import Mongodb from '../assets/Mongodb.png'
 import C from '../assets/C.png'
 import Cplus from '../assets/C++.png'
 import GitHub from '../assets/Git.png'
+import Java from '../assets/java1.png'
+import Mysql from '../assets/Mysql.png'
 
 
 
@@ -30,60 +32,72 @@ const Skill = () => {
         },
         {
             id: 3,
+            src: Java,
+            title: 'Java',
+            style: 'shadow-red-500'
+        },
+        {
+            id: 4,
             src: HTML,
             title: 'HTML',
             style: 'shadow-orange-500'
         },
         {
-            id: 4,
+            id: 5,
             src: CSS,
             title: 'CSS',
             style: 'shadow-blue-400'
         },
         {
-            id: 5,
+            id: 6,
             src: Javascript,
             title: 'JavaScript',
             style: 'shadow-yellow-500'
         },
         {
-            id: 6,
+            id: 7,
             src: Tailwind,
             title: 'Tailwind',
             style: 'shadow-cyan-500'
         },
         {
-            id: 7,
+            id: 8,
             src: Reacts,
             title: 'Reacts',
             style: 'shadow-blue-500'
         },
         {
-            id: 8,
+            id: 9,
             src: Nodejs,
             title: 'Nodejs',
             style: 'shadow-green-500'
         },
         {
-            id: 9,
+            id: 10,
             src: Expressjs,
             title: 'Express',
             style: 'shadow-green-300'
         },
         {
-            id: 10,
+            id: 11,
             src: Mongodb,
             title: 'Mongodb',
             style: 'shadow-green-400'
         },
         {
-            id: 11,
+            id: 12,
+            src: Mysql,
+            title: 'MySQL',
+            style: 'shadow-orange-400'
+        },
+        {
+            id: 13,
             src: Reacts,
             title: 'React Native',
             style: 'shadow-blue-300'
         },
         {
-            id: 12,
+            id: 14,
             src: GitHub,
             title: 'GitHub',
             style: 'shadow-gray-400'

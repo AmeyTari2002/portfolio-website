@@ -31,7 +31,7 @@ const Contact = () => {
                         focus:outline-none required'
                         />
                         <textarea name="message" required
-                            placeholder='Enter yur Message'
+                            placeholder='Enter your Message'
                             rows="10"
                             className='p-2 bg-transparent border-2 rounded-md 
                          text-white focus:outline-none '>
