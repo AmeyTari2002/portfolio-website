@@ -5,6 +5,7 @@ import Codebook from '../assets/Codebook.png'
 import grocery from '../assets/grocery-app.jpg'
 import todoapp from '../assets/to-do_app.png'
 import weatherapp from '../assets/weather-app.png'
+import Plant_Nursery from '../assets/Plant Nursery.png'
 
 const Project = () => {
 
@@ -18,13 +19,20 @@ const Project = () => {
         },
         {
             id: 2,
+            src: Plant_Nursery,
+            demo: true,
+            href_demo: 'https://ameytari-plant-nursery-app.vercel.app/',
+            href_code: 'https://github.com/AmeyTari2002/Plant_Nursery_Backend'
+        },
+        {
+            id: 3,
             src: todoapp,
             demo: true,
             href_demo: 'https://ameytari-todolist.netlify.app/',
             href_code: 'https://github.com/AmeyTari2002/Weather-App'
         },
         {
-            id: 3,
+            id: 4,
             src: weatherapp,
             demo: true,
             href_demo: 'https://ameytari-weatherapp.netlify.app/',
@@ -32,19 +40,19 @@ const Project = () => {
 
         },
         {
-            id: 4,
+            id: 5,
             src: chattingapp,
             demo: false,
             href_code: 'https://github.com/AmeyTari2002/V-Chat'
         },
         {
-            id: 5,
+            id: 6,
             src: grocery,
             demo: false,
             href_code: 'https://github.com/AmeyTari2002/Go-Grocery'
         },
         {
-            id: 6,
+            id: 7,
             src: Codebook,
             demo: false,
             href_code:'https://github.com/AmeyTari2002/React-Project-code-book'
@@ -68,7 +76,7 @@ const Project = () => {
 
 
                             <div key={id} className='shadow-md shadow-gray-600 rounded-b-lg hover:scale-110'>
-                                <img src={src} alt="" className='rounded-lg duration-200' />
+                                <img src={src} alt="" height={50}  className='rounded-lg duration-200' />
                                 <div className='flex items-center justify-center'>
                                     {
                                         demo &&
