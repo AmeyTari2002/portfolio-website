@@ -62,11 +62,11 @@ const Project = () => {
 
 
     return (
-        <div name='Project' className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen  pt-64'>
+        <div  className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen  pt-72'>
 
 
             <div className=' max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full '>
-                <div className='py-6 lg:pt-0 '>
+                <div name='Project' className='py-6 lg:pt-0 '>
                     <p className='text-3xl font-bold inline border-b-4 border-gray-500'>Projects</p>
                     <p className='py-6'>Check out some of my projects right here.</p>
                 </div>

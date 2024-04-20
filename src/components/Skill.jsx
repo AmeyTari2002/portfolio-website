@@ -107,13 +107,13 @@ const Skill = () => {
 
 
     return (
-        <div name='Skill' className='bg-gradient-to-b
+        <div  className='bg-gradient-to-b
      from-gray-800 to-black w-full h-full pt-64'>
         {/* max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full  */}
             <div className='max-w-screen-lg  p-4 mx-auto 
         flex flex-col justify-center  h-full text-white'>
             {/* className='pb-6 pt-10 md:p-0' */}
-                <div  className='pb-6 lg:pt-14 md:p-0  ' >
+                <div name='Skill' className='pb-6 lg:pt-14 md:p-0  ' >
                 {/* className='text-3xl font-bold inline border-b-4 border-gray-500' */}
                     <p className='text-3xl font-bold inline border-b-4 border-gray-500'>Skills</p>
                     <p className='py-6'>These are the technologies I've
