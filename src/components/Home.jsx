@@ -15,16 +15,16 @@ const Home = () => {
                     <p className='text-gray-400 py-4 max-w-md'>
                         A dedicated and an aspiring Software Developer with an <br /> objective of working in an organization that provide
                         opportunities for technical and personal advancement, <br />I love working on technologies like React, Node, <br />
-                         Express
-                        and MongoDB.
+                         Express, MongoDB and Mysql. <br /> Programming Languages like C, C++, Java, Javascript. 
                     </p>
                     <div>
                         <button className='hover:scale-105  text-white w-fit px-7 py-3 
                         my-2 flex items-center rounded-md 
                         bg-gradient-to-r from-cyan-500 to-blue-500 sm:py-2 text-sm'>
-                            <a className='flex' href='/resume_.pdf'
-                                download='true'
+                            <a className='flex' href='/resume.pdf'
+                                download='Amey Resume'
                                 target='_blank'
+                                name='Amey Resume'
                             >
                                 Resume
                                 <span className='hover:scale-105 duration-300'>
