@@ -12,10 +12,10 @@ const Home = () => {
                     <h2 className='text-3xl sm:text-7xl font-bold text-white'>
                         I'm a Full Stack Developer
                     </h2>
-                    <p className='text-gray-400 py-4 max-w-md'>
+                    <p className='text-gray-400  py-4 max-w-md'>
                         A dedicated and an aspiring Software Developer with an <br /> objective of working in an organization that provide
                         opportunities for technical and personal advancement, <br />I love working on technologies like React, Node, <br />
-                         Express, MongoDB and Mysql. <br /> Programming Languages like C, C++, Java, Javascript. 
+                         Express, MongoDB and Mysql.
                     </p>
                     <div>
                         <button className='hover:scale-105  text-white w-fit px-7 py-3 
