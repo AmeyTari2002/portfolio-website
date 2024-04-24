@@ -17,22 +17,22 @@ const Project = () => {
             href_demo: 'https://ameytari-booking-app.vercel.app/',
             href_code: 'https://github.com/AmeyTari2002/Airbnb'
         },
+        //{
+           // id: 2,  
+           // src: Plant_Nursery,
+            // demo: true,
+            // href_demo: 'https://ameytari-plant-nursery-app.vercel.app/',
+            // href_code: 'https://github.com/AmeyTari2002/Plant_Nursery_Backend'
+        //},
         {
             id: 2,
-            src: Plant_Nursery,
-            demo: true,
-            href_demo: 'https://ameytari-plant-nursery-app.vercel.app/',
-            href_code: 'https://github.com/AmeyTari2002/Plant_Nursery_Backend'
-        },
-        {
-            id: 3,
             src: todoapp,
             demo: true,
             href_demo: 'https://ameytari-todolist.netlify.app/',
             href_code: 'https://github.com/AmeyTari2002/Weather-App'
         },
         {
-            id: 4,
+            id: 3,
             src: weatherapp,
             demo: true,
             href_demo: 'https://ameytari-weatherapp.netlify.app/',
@@ -40,19 +40,19 @@ const Project = () => {
 
         },
         {
-            id: 5,
+            id: 4,
             src: chattingapp,
             demo: false,
             href_code: 'https://github.com/AmeyTari2002/V-Chat'
         },
         {
-            id: 6,
+            id: 5,
             src: grocery,
             demo: false,
             href_code: 'https://github.com/AmeyTari2002/Go-Grocery'
         },
         {
-            id: 7,
+            id: 6,
             src: Codebook,
             demo: false,
             href_code:'https://github.com/AmeyTari2002/React-Project-code-book'
