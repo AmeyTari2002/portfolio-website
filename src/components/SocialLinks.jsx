@@ -42,7 +42,7 @@ const SocialLinks = () => {
                     Resume  <CiSaveDown2 size={30}/>
                 </>
             ),
-            href: '/resume.pdf',
+            href: '/Resume_.pdf',
             style: 'rounded-br-md',
             download: 'Amey Resume'
         }
