@@ -108,7 +108,7 @@ const Skill = () => {
             src: Firebase,
             title: 'Firebase',
             style: 'shadow-gray-400'
-        },
+        }
     ]
 
 
