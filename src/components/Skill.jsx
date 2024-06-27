@@ -12,6 +12,7 @@ import Cplus from '../assets/C++.png'
 import GitHub from '../assets/Git.png'
 import Java from '../assets/java1.png'
 import Mysql from '../assets/Mysql.png'
+import Firebase from '../assets/Firebase.png'
 
 
 
@@ -100,6 +101,12 @@ const Skill = () => {
             id: 14,
             src: GitHub,
             title: 'GitHub',
+            style: 'shadow-gray-400'
+        },
+        {
+            id: 15,
+            src: Firebase,
+            title: 'Firebase',
             style: 'shadow-gray-400'
         },
     ]
