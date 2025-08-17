@@ -49,8 +49,8 @@ const Socialsites = () => {
         }
     ]
     return (
-        <div className='bg-gradient-to-b
-                 from-gray-800 to-gray-900 w-full h-full'>
+        <div className='bg-gradient-to-b from-gray-950 to-gray-800
+                 w-full h-full'>
             {/* max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full  */}
             <div className='max-w-screen-lg  p-4 mx-auto 
                      flex flex-col justify-center  h-full text-white'>
