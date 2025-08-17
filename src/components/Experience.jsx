@@ -1,7 +1,7 @@
 import React from 'react'
 const Experience = () => {
     return (
-        <div name='WorkExperience' className=' w-full h-screen   bg-gradient-to-b from-black to-gray-800 text-white'>
+        <div name='Experience' className=' w-full h-screen   bg-gradient-to-b from-black to-gray-800 text-white'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full '>
                 <div className='pb-6 pt-6 '>
                     <p className=' cursor-pointer text-4xl font-bold inline border-b-4 border-gray-500 '>Experience</p>
