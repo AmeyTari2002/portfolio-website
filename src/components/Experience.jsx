@@ -1,5 +1,5 @@
 import React from 'react'
-const WorkExperience = () => {
+const Experience = () => {
     return (
         <div name='WorkExperience' className=' w-full h-screen   bg-gradient-to-b from-black to-gray-800 text-white'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full '>
@@ -30,4 +30,4 @@ const WorkExperience = () => {
     )
 }
 
-export default WorkExperience
+export default Experience
